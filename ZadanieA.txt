@@ -15,3 +15,22 @@ Result: User is directed to Google Maps.
 Map shows red pin with correct address.
 On the left side Prowly's business card is displayed.
 
+A.2. As a user I want to verify if there are Prowly's license free images to use in Google images
+Preconditions: User is using desktop browser.
+
+1. Open the browser.
+Result: Browser is open.
+2. Go to https://www.google.com
+Result: Google homepage is loaded successfully.
+3. In the search bar type 'prowly' and hit "Enter".
+Result: Search result containing 'prowly' is displayed.
+4. In "All filters" in right corner of the page select "Images".
+Result: The page is reloaded. User can see only images in search results.
+5. Click on "Tools".
+Result: Set of additional filters is displayed under "Tools".
+6. In the dropdown "Usage Rights" choose "Commercial & other licenses".
+Result: The list of search results is refreshed.
+None of the displayed results displays Prowly's logo.
+
+
+
