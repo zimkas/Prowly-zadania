@@ -32,5 +32,22 @@ Result: Set of additional filters is displayed under "Tools".
 Result: The list of search results is refreshed.
 None of the displayed results displays Prowly's logo.
 
+A.3. As a user I want to verify if there is available Google attribute for 'prowly' in google.com
+Preconditions: User is using mobile browser. 
 
+1. Open the browser.
+Result: Browser is open.
+2. Go to https://www.google.com
+Result: Google homepage is loaded successfully.
+3. In the search bar type 'prowly' and search.
+Result: Search result containing 'prowly' is displayed.
+4. Scroll down the results to the business card.
+Result: Business card is visible.
+In the section 'Najważniejsze informacje' there is visible purple heart with description 'Prezentuje się jako firma należąca do kobiety'.
+5. Go to the top and in "All filters" select "Maps".
+Result: User is redirected to Google Maps.
+Red pin with the address of the company is visible.
+6. Click on the business card in the bottom of the screen.
+Result: Business card is expanded. 
+At the bottom of the business card's section there is visible purple heart with description 'Prezentuje się jako firma należąca do kobiety'.
 
